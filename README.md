@@ -25,15 +25,14 @@
   2. 이외의 추가적인 문제풀이는 개인의 자유이다.<br>
 1. 회의는 매주 월요일 오전 10시이다.<br>
 2. 올린 Pull Request는 월요일 모임 이후 merge한다.<br>
-3. 매 주차 READMD.MD 를 만들어 가능한 상세하게 기록한다.
-<br><br>
-----------------------------------------------------------------------------------------------------------------------------
+3. 매 주차 READMD.MD 를 만들어 가능한 상세하게 기록한다.<br><br>
+****************************************************************************************************************
 <br><br>
 ## Terminal(VS CODE)로 제출하는 법<br>
-<u>branch 안만들고 바로 main으로 하다가 sync 되면 main에 있던 다른 것 다 증발하니 branch 만들어서 합시다.</u>
+<u>branch 안만들고 바로 main으로 하다가 sync 되면 main에 있던 다른 것 다 증발하니 branch 만들어서 합시다.</u><br>
 
-1. **이번주 내용 받아오기**
-  1. 새로운 폴더에 받기(사실 받을 내용은 의미없는 README.MD 뿐이지만 폴더 만들어놨으니까..)
+1. **이번주 내용 받아오기**<br>
+  1. 새로운 폴더에 받기(사실 받을 내용은 의미없는 README.MD 뿐이지만 폴더 만들어놨으니까..)<br>
     ```sh
     $ git clone https://github.com/junsoopooh/Studying_Algorithm.git
     $ cd Studying_Algorithm.git
@@ -46,7 +45,7 @@
     $ git pull
     ```
 <br><br>
-1. **제출할 공간 만들기**
+1. **제출할 공간 만들기**<br>
   ```sh
   $ cd ${이번주차폴더}
   $ mkdir ${내영어이름}
@@ -56,7 +55,7 @@
   ```
   <br><br>
 1. **push로 제출하기**
-  내 local에서 올릴 파이썬파일과 Markdown등을 ${이번주차폴더}/${내영어이름}
+  내 local에서 올릴 파이썬파일과 Markdown등을 ${이번주차폴더}/${내영어이름}<br>
   ```sh
   $ git add .  #git add . 은 현재 디렉토리 내에 모든 변경사항을 포함시킵니다. 
   #example.py라는 파일만 하고싶으면 git add example.py 라고 하면 됩니다. 
@@ -64,10 +63,10 @@
   $ git push # 
   ```
 <br><br>
-1. **[스터디 repository](https://github.com/junsoopooh/Studying_Algorithm) 이동**
-  branch 생성, push 확인하기
-  'base:main <- compare:${이번주차폴더}/${내영어이름}' 방향 확인하기
-  Pull request 생성
+1. **[스터디 repository](https://github.com/junsoopooh/Studying_Algorithm) 이동**<br>
+  - branch 생성, push 확인하기<br>
+  - 'base:main <- compare:${이번주차폴더}/${내영어이름}' 방향 확인하기<br>
+  - Pull request 생성<br>
  <br><br>
 1. **월요일 회의가 끝나고 자신의 PR을 merge 한다.**
 <br><br>
