@@ -86,9 +86,9 @@
     상하좌우 대각선 영역에 지뢰를 설치하고 싶다면,<br>
     index범위를 벗어나지 않는 영영에서 지뢰를 설치해야 한다.<br><br>
     내장함수 min(), max()를 활용해 범위를 설정하면 편하다. <br>
-    row의 경우 index범위가 0~4까지 <br>
-    지뢰 설치되는 row의 범위 : max(0, cur_row-1) ~ min(4, cur_row+1) <br>
+    row의 경우 index범위가 0에서 4까지 <br>
+    지뢰 설치되는 row의 범위 : max(0, cur_row-1) 에서 min(4, cur_row+1) <br>
     column의 경우 index범위가 0~2까지 <br>
-    지뢰 설치되는 rol의 범위 : max(0, cur_rol-1) ~ min(4, cur_rol+1) <br>
+    지뢰 설치되는 rol의 범위 : max(0, cur_rol-1)  min(4, cur_rol+1) <br>
 </div>
 </details>
