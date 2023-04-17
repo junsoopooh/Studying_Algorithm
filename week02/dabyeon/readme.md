@@ -62,7 +62,6 @@
     √max(nums) 탐색 범위내에서 소수가 아닌 걸 낼 수 있다. <br>
 </div>
 </details>
-<<<<<<< HEAD
 
 <details>
 <summary>OX 퀴즈</summary>
@@ -93,5 +92,3 @@
     지뢰 설치되는 rol의 범위 : max(0, cur_rol-1) ~ min(4, cur_rol+1) <br>
 </div>
 </details>
-=======
->>>>>>> fcb7c13331f52b44b7e084c168d54fb64fd19c1f
