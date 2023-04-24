@@ -44,3 +44,35 @@ count(): 인자로 넘겨준 숫자가 각 리스트에서 몇번 나오는지 �
 
 </div>
 </details>
+
+<details>
+<summary>1914 하노이 탑</summary>
+<div markdown="1">       
+
+1. n-1개의 원판을 _from에서 temp으로 옮긴다  <br>
+2. n번째 원판을 _from에서 _to로 옮긴다. <br>
+3. temp 놓여진 n-1개의 원판을 _to로 옮긴다. <br>
+코드 구현은 가능하나 위 과정을 재귀 호출하는 과정이 명확히 이해되지 않음. <br>
+
+</div>
+</details>
+
+<details>
+<summary>1152 단어의 개수</summary>
+<div markdown="1">       
+
+인풋 받을 때 input().split() 과 list(input().split()) 둘다 리스트로 받아진다. <br>
+
+</div>
+</details>
+
+<details>
+<summary>2908 상수</summary>
+<div markdown="1">       
+
+str을 거꾸로 재배치 하고 싶을 땐 [::-1]을 활용하자 <br>
+reverse()는 문자열이 원소 하나하나 마다 쪼개져 있을 때 사용가능하다. <br>
+ex: ['a', 'b', 'c'] -> ['c', 'b', 'a'] <br>
+
+</div>
+</details>
