@@ -1,0 +1,5 @@
+data = input().split()
+data_list = list(input().split())
+print(data)
+print(data_list)
+# print(len(data))
