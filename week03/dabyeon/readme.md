@@ -13,6 +13,7 @@
 |1914 하노이의 탑|O(2ⁿ)|accepted|
 |프로그래머스, 평행|O(1)|pass|
 |프로그래머스, 문자열 내 마음대로 정렬하기|O(1)|pass|
+|프로그래머스, [1차] 비밀지도|O(N)|pass|
 
 
 <br><br>
@@ -80,5 +81,18 @@
 
 😎정렬 기준 lamda😎 <br><br>
     strings.sort(key = lambda x:x[n]) <br>
+</div>
+</details>
+
+<details>
+<summary>프로그래머스, [1차] 비밀지도</summary>
+<div markdown="1">       
+
+😎10진수를 2진수로 변환😎 <br><br>
+    bin(31) → 11111 <br><br>
+
+😎문자열 0으로 채우기 zfill😎 <br><br>
+'38'.zfill(5) → '00038'<br>
+'38'.rjust(5, '0') → '00038'<br>
 </div>
 </details>
