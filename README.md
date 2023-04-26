@@ -134,19 +134,19 @@ $ rm [-option] [파일이름] #rm은 삭제시키기
 -r : 하위 디렉토리까지 모두 삭제<br>
 <br><br>
 
-git master(main)으로 내 local 덮어쓰기<br>
+git master(main)으로 내 local 덮어쓰기
 ```sh
 $ git fetch -all
 $ git reset --hard origin/master
 ```
-<br>
-master가 아닌 다른 branch로 덮어쓰기<br>
+
+master가 아닌 다른 branch로 덮어쓰기
 ```sh
 $ git fetch -all
 $ git reset --hard origin/<브랜치 이름>
 ```
-<br>
-현재 local을 다른 branch에 저장한 후, git pull로 덮어쓰기<br>
+
+현재 local을 다른 branch에 저장한 후, git pull로 덮어쓰기
 ```sh
 $ git checkout master
 $ grit branch <브랜치 이름>
