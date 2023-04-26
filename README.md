@@ -150,7 +150,7 @@ $ git reset --hard origin/<브랜치 이름>
 ```sh
 $ git checkout master
 $ git branch <브랜치 이름>
-$ git fetch -all
+$ git fetch --all
 $ git reset --hard origin/master
 ```
 
