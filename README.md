@@ -149,7 +149,7 @@ $ git reset --hard origin/<브랜치 이름>
 현재 local을 다른 branch에 저장한 후, git pull로 덮어쓰기
 ```sh
 $ git checkout master
-$ grit branch <브랜치 이름>
+$ git branch <브랜치 이름>
 $ git fetch -all
 $ git reset --hard origin/master
 ```
