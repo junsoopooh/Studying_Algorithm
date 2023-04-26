@@ -2,7 +2,8 @@
 *2023년 4월 3일에 시작된 정글 6기 파이썬 알고리즘 스터디*
 
 ## 공지사항(2023.04.26)
-- 문제 풀이, 이론 공부 회의 시간이 오전 9시로 변경되었습니다.
+- 문제 풀이, 이론 공부 회의 시간이 오전 9시로 변경되었습니다.<br>
+- 아래 git 덮어쓰기 관련 명령어들 업데이트 했습니다.<br>
 - 이론 공부 회의가 금요일로 변경되었습니다.  <br>
 - 각 주차 폴더에 있는 README.md는 일정과 범위에 관한 내용입니다. 수정하시면 안됩니다.<br>
 - PintOS 때문에 힘들지만 힘냅시다.<br><br>
@@ -130,10 +131,28 @@ $ rm [-option] [파일이름] #rm은 삭제시키기
 옵션 종류<br>
 
 -i : 삭제할지 여부 물어봄<br>
--r : 하위 디렉토리까지 모두 삭제
+-r : 하위 디렉토리까지 모두 삭제<br>
+<br><br>
 
-
-
+git master(main)으로 내 local 덮어쓰기
+```sh
+$ git fetch -all
+$ git reset --hard origin/master
+```
+<br>
+master가 아닌 다른 branch로 덮어쓰기
+```sh
+$ git fetch -all
+$ git reset --hard origin/<브랜치 이름>
+```
+<br>
+현재 local을 다른 branch에 저장한 후, git pull로 덮어쓰기
+```sh
+$ git checkout master
+$ grit branch <브랜치 이름>
+$ git fetch -all
+$ git reset --hard origin/master
+```
 
 
 
