@@ -159,7 +159,7 @@ ex) 배열에서 특정 값을 탐색하는 알고리즘을 가정하자. 알고
 
 그림 2.2를 모델로 이용해 수열 A = <31,41,59,26,41,58>이 입력으로 주어질 때 INSERTION-SORT의 동작을 설명하라.
 
-![figure2-2.png]((https://cdn.jsdelivr.net/github.com/junsoopooh/Studying_Algorithm/blob/week05/junsu/week05/junsu/figure2-2.png)
+![figure2-2.png](https://github.com/junsoopooh/Studying_Algorithm/blob/week05/junsu/week05/junsu/figure2-2.png)
 
 
 
