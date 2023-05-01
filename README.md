@@ -1,18 +1,18 @@
 # Studying_Algorithm
 *2023년 4월 3일에 시작된 정글 6기 파이썬 알고리즘 스터디*
 
-## 공지사항(2023.04.29)
-- 문제 풀이, 이론 공부 회의 시간을 ~~오전 9시~~ 오전 10시로 복귀하였습니다.<br>
+## 공지사항(2023.05.01)
+- 5월 8일은 Pintos 제출 전날이라 바쁠 것으로 예상되어 5월 10일 수요일로 회의가 변경되었습니다.
 
-- 추가적으로 git 관련하여 궁금하거나 올리고 싶은 것 있으면 말씀하세요.<br>
+- 문제 풀이, 이론 공부 회의 시간은 자주 변경되니 확인하세요.<br>
 
-- 2023.04.30 멘탈 회복을 위한 첫 외출 예정<br>
+- 최하단에 git config 관련 내용 추가하였습니다.<br>
 
-- 각 주차 폴더에 있는 README.md는 일정과 범위에 관한 공통 내용입니다. 수정하시면 안됩니다.<br>
+- 23.04.30 첫 나들이 성공적. 다음엔 4명이서 갑시다.<br>
 
-- PintOS 때문에 힘들지만 힘냅시다.<br>
+- 알고리즘 외에도 Pintos나 기타 코딩 관련된 추가적인 자료등은 언제든 채널로 공유합시다.<br>
 
-- 알고리즘 외에도 slack 채널에 pintos 등 다양한 정보 공유를 합시다.<br>
+- 그 외 우리 넷을 제외하면 지나치게 사적인 이야기나 다른 사람에 관한 이야기는 **슬랙채널**에서는 지양합시다.<br>
 
 - 팀원에게 하기 힘든 질문, 부탁 우리끼리 해봅시다(설명 요청, 자료 요청 등)<br>
 
@@ -146,6 +146,8 @@ $ mv [파일이름] [변경할 파일 이름]       #존재하는 디렉토리�
 -u : 디렉토리에 있는 파일이 더 최신이면 이동하지 않음<br>
 <br><br>
 
+------
+
 rm 명령어 옵션
 ```sh
 $ rm [-option] [파일이름] #rm은 삭제시키기
@@ -155,6 +157,8 @@ $ rm [-option] [파일이름] #rm은 삭제시키기
 -i : 삭제할지 여부 물어봄<br>
 -r : 하위 디렉토리까지 모두 삭제<br>
 <br><br>
+
+------
 
 git master(main)으로 내 local 덮어쓰기
 ```sh
@@ -176,7 +180,29 @@ $ git fetch --all
 $ git reset --hard origin/master
 ```
 
+<br><br>
 
+------
+
+
+
+git config 설정 관련(git config 관련 오류가 나올 시 유용)
+
+```sh
+$ git config --list #전체 config 리스트 확인
+
+#git config 설정하기(둘 다 해주어야 함)
+$ git config --global user.name "홍길동"
+$ git config --global user.email "id@email.com"
+
+# git config 삭제하기
+$ git config --unset user.name
+$ git config --unset user.email
+
+#삭제해도 남아있는 경우는 global 옵션 때문일 가능성이 있음. 이 경우 아래 방법으로 지울 수 있음
+$ git config --unset --global user.name
+$ git config --unset --global user.email
+```
 
 
 
