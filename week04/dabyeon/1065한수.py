@@ -9,7 +9,7 @@ N = int(input().rstrip())
 
 result = 0
 if N < 100:
-    result += N
+    result += N # 그냥 N을 print하게 하는게 좋을듯! for문을 계속 도니깐 비효율적!
 else:
     result += 99
     for i in range(100, N+1):

@@ -3,7 +3,7 @@
 import sys
 input = sys.stdin.readline
 
-n = int(input().rstrip())
+n = int(input().rstrip()) # int로 형변환하면 \0(NULL)이 없어짐. rstrip()할 필요 없음.
 k = int(input().rstrip())
 nums = []
 for _ in range(n):
