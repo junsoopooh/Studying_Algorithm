@@ -42,3 +42,5 @@ def dfs(n, start):
 
 dfs(7, 0)
 # print(result)
+
+# 결과를 list형태로 저장하고 그 값중에 하나를 출력해주면 될듯.. exit 사용을 지양해야 하니깐....

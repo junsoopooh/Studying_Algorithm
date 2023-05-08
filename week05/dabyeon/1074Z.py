@@ -22,18 +22,18 @@ while flag > 0:
     # 2 사분면
     elif r < flag and c >= flag:
         result += (flag)*(flag)
-        c -= flag # 기준점 다시 (0,0)으로
+        c -= flag # 기준점 다시 (0,1)으로
         flag //= 2
     # 3 사분면
     elif r >= flag and c< flag: 
         result += 2*(flag)*(flag)
-        r -= flag # 기준점 다시 (0,0)으로
+        r -= flag # 기준점 다시 (1,0)으로
         flag //= 2
     # 4 사분면
     elif r>= flag and c >= flag:
         result += 3*(flag)*(flag)
-        r -= flag # 기준점 다시 (0,0)으로
-        c -= flag # 기준점 다시 (0,0)으로
+        r -= flag # 기준점 다시 (1,1)으로
+        c -= flag # 기준점 다시 (1,1)으로
         flag //= 2
 
 print(result)
