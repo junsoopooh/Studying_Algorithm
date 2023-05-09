@@ -285,7 +285,7 @@ for i = 1 to n+1
 for i = 1 to n
     if (A[i] + B[i] + C[i])>= 2 // 이전 반복에서 이전 자릿수의 합으로 C의 원소가 1이 되어있을 수 있다.
         C[i] += (A[i] + B[i] + C[i])%2
-        C[i] = 1
+        C[i+1] = 1
    	else
         C[i] = A[i] + B[i] + C[i]
 ```
