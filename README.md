@@ -100,11 +100,14 @@
 
 ```sh
 $ git clone <repository URL>  # 해당 URL의 repository clone하기
-$ git branch                  # 해당 repo의 branch 목록 보기
+$ git branch                  # 해당 repo의 브랜 목록 보기
+$ git branch -r               # remote 브랜치 보기
 $ git log --oneline           # 내가 위치해 있는 branch 확인 
 $ git branch <브랜치이름>      # 브랜치 생성
 $ git checkout <브랜치이름>    # 작업하는 브랜치 변경
 $ git checkout -b <브랜치이름> # 위 두가지를 한번에, 즉 브랜치를 만들고 그곳을 작업 브랜치로 하기
+$ git push origin <브랜치이름> # 생성한 local 브랜치를 remote 브랜치에 붙여넣기
+$ git branch --set-upstream-to origin/<브랜치 이름> # local 브랜치, remote 브랜치 연동하기
 ```
 <br><br>
 
