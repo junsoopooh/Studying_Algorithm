@@ -1,15 +1,12 @@
 # Studying_Algorithm
 *2023년 4월 3일에 시작된 정글 6기 파이썬 알고리즘 스터디*
 
-## 공지사항(2023.05.10)
+## 공지사항(2023.05.12)
 
-- 문제 풀이, 이론 공부 회의 시간은 자주 변경되니 확인하세요.<br>
+- 문제 풀이 회의는 수요일에 진행합니다. 5월 17일은 모의고사로 오전 9시에 시작합니다.<br>
 
-- 최하단에 git config 관련 내용 추가하였습니다.<br>
+- 최하단에 git 관련 내용 추가하였습니다.<br>
 
-- 5월 15일 오전 9시 알고리즘 문제풀이 모의고사
-<br>
-***
 <br><br>
 
 ## 안내사항
@@ -101,10 +98,13 @@
 ```sh
 $ git clone <repository URL>  # 해당 URL의 repository clone하기
 $ git branch                  # 해당 repo의 branch 목록 보기
+$ git branch -r               # remote 브랜치 보기
 $ git log --oneline           # 내가 위치해 있는 branch 확인 
 $ git branch <브랜치이름>      # 브랜치 생성
 $ git checkout <브랜치이름>    # 작업하는 브랜치 변경
 $ git checkout -b <브랜치이름> # 위 두가지를 한번에, 즉 브랜치를 만들고 그곳을 작업 브랜치로 하기
+$ git push origin <브랜치이름> # 생성한 local 브랜치를 remote 브랜치에 붙여넣기
+$ git branch --set-upstream-to origin/<브랜치 이름> # local 브랜치, remote 브랜치 연동하기
 ```
 <br><br>
 
