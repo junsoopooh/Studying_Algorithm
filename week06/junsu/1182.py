@@ -19,7 +19,7 @@ def pick(x, tmp):
             visited[i] = True
             pick(x-1, tmp+nums[i])
 
-for i in range(n):
+for i in range(1,n):
     visited = [False]*n
     pick(i, 0)
 print(cnt)
