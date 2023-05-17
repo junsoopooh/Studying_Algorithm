@@ -16,7 +16,6 @@ def pick(x, tmp):
     
     for i in range(n):
         if not visited[i]:
-            tmp += nums[i]
             visited[i] = True
             pick(x-1, tmp+nums[i])
 
