@@ -5,24 +5,42 @@ nums = list(map(int, sys.stdin.readline().split()))
 visited = [False]*n
 cnt = 0
 
-def pick(x, tmp):
+def solve(start):
     global cnt
-    if x == 0:
-        if tmp == s:
-            cnt += 1
-            return
-        else:
-            return
+    if sum(ans) == s and len(ans) > 0:
+        cnt += 1
     
-    for i in range(n):
-        if not visited[i]:
-            visited[i] = True
-            pick(x-1, tmp+nums[i])
-
-for i in range(1,n):
-    visited = [False]*n
-    pick(i, 0)
+    for i in range(start,n):
+        ans.append(nums[i])
+        solve(i+1)
+        ans.pop()
+        
+solve(0)
 print(cnt)
+
+
+
+
+
+
+# def pick(x, tmp):
+#     global cnt
+#     if x == 0:
+#         if tmp == s:
+#             cnt += 1
+#             return
+#         else:
+#             return
+    
+#     for i in range(n):
+#         if not visited[i]:
+#             visited[i] = True
+#             pick(x-1, tmp+nums[i])
+
+# for i in range(1,n):
+#     visited = [False]*n
+#     pick(i, 0)
+# print(cnt)
 
 # def dfs(tmp):
 #     global cnt
