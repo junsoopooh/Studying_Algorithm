@@ -14,6 +14,8 @@
 - 좋은 아이디어는 긴 고민 끝에 나오는 1가지가 아니라 최대한 많이 쏟아내어 나온 후보지에서 고른 마지막 1가지입니다. <br>
 
 - 최근 DFS 문제가 범위였습니다. DFS 와 백트래킹도 이용하고, permutation과 combination도 사용하여 다양하게 풀어봅시다.<br>
+
+- <span style="color:#ffffff">테스트</span>
 ***
 
 
