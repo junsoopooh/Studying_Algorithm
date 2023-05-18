@@ -8,6 +8,7 @@ visited = [False]*n
 
 # 정답 코드
 # def solve(start):
+
 #     global cnt
 #     if sum(ans) == s and len(ans) > 0:
 #         cnt += 1
