@@ -31,7 +31,7 @@ insertion-Sort(A)
 for j = 2 to A.length
 	key == A[j]
     // A[j]를 정렬된 배열 A[1..j-1]에 삽입한다.
-    I = j-1 5     
+    I = j-1     
     while i > 0 그리고 A[i] > key
     A[i+1] = A[i]
     i = i-1
