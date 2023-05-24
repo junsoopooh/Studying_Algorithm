@@ -44,3 +44,9 @@ visited = [False]*n
 #     visited = [False]*n
 #     pick(i, 0)
 # print(cnt)
+
+# 내 코드는 dfs 깊이를 직접설정해줬음. 즉 n번해야함. dfs자체도 n에 관한 loop인데 n^2이 되버림.
+# 또 백트래킹에서 false처리를 하면안됌.
+# 지하 1층 가서 없으면 2층을 가봐야하는데 일단 복귀함.
+# A동 1층,B,C,D,E 확인하고 그다음 A동1,2층, B,C, .. 반복
+# 개쓸데없이 dfs의 장점을 잃었다.
