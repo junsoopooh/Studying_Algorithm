@@ -1,4 +1,4 @@
-# 학습 그물망
+# Webbing 계획서
 
 - 소개 
 
@@ -17,7 +17,7 @@
 
         (1) 예시 : 큰 범위의 관계도
 
-![diagram1](https://github.com/junsoopooh/Studying_Algorithm/blob/main/IDEA_Collection/학습그물망/diagram1.png)
+![diagram1](https://github.com/junsoopooh/Studying_Algorithm/blob/main/IDEA_Collection/webbing/diagram1.png)
 
 - - - 위 사진은 삼국지 13 게임내의 '인연 시스템'이다.
         - 동그란 node는 인물을 나타낸다.
@@ -31,7 +31,7 @@
 
 
 
- ![diagram2](https://github.com/junsoopooh/Studying_Algorithm/blob/main/IDEA_Collection/학습그물망/diagram2.png)
+ ![diagram2](https://github.com/junsoopooh/Studying_Algorithm/blob/main/IDEA_Collection/webbing/diagram2.png)
 
 ​		(2) 예시 : 작은 범위의 관계도
 
@@ -42,7 +42,7 @@
 
 ​		(3) 예시 : 마크다운으로 작성 가능한 노트 앱 'obsidian' 에서 제공하는 링크 기능
 
-![diagram3](https://github.com/junsoopooh/Studying_Algorithm/blob/main/IDEA_Collection/학습그물망/diagram3.png)
+![diagram3](https://github.com/junsoopooh/Studying_Algorithm/blob/main/IDEA_Collection/webbing/diagram3.png)
 
 
 
@@ -78,8 +78,4 @@
 5. 디지타이저 펜을 사용할 때, 굿노트에서 펜으로 그리고 유지할 시 직선으로 변경해주는 기능등도 구현하고 싶다. '손'으로 쓰는 것에 부담을 느끼는 사람이 생각보다 많고, 결과물이 이쁘고 보기좋지 않으면 다시 보지 않게 된다.
 
 6. 회원가입을 통해 유저에게 최근 몇개 파일에 대한 클라우드를 제공할 수 있을까 싶다. 있으면 좋긴 할것 같다. 로컬에서 최근 파일에 대한 기능은 꼭 있어야 한다.
-
-    
-
-
 
