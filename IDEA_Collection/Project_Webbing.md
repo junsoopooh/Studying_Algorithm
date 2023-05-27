@@ -53,17 +53,47 @@
 
 웹사이트가 아닌 로컬 프로그램으로 만든다. 서버 연결은... 사람들의 결과물 올리기? 
 
+참고 링
 
+https://dontdiethere.tistory.com/43
 
 ### 3. 백엔드의 추가적인 도전 과제 설정
 
 #### (1) 동작 취소 기능
 
+undo(rollback) 와 redo 기능인가보다
+
+이전 상태를 저장하니 마니 좌표로 두니 마니 고민 흔적 보임
+
+꽤 쉽지않은 도전으로 보임. 그래서 재밌겠음.
+
+참고 링크
+
+http://1st.gamecodi.com/board/zboard.php?id=GAMECODI_Talkdev&no=1089
+
+https://brownbears.tistory.com/181
+
+https://hengki.net/96
+
+
+
 #### (2) 각종 동작 자동완성(기능 검색바 제공)
+
+여러 자료들이 있다. 읽기 귀찮아서 일단 가능은 한것으로 판단.
+
+참고 링크
+
+https://velog.io/@jake93/django-%EA%B2%80%EC%83%89%EC%96%B4-%ED%95%84%ED%84%B0-%EA%B5%AC%ED%98%84
+
+https://equus3144.medium.com/django%EB%A1%9C-%EA%B2%80%EC%83%89-%EA%B8%B0%EB%8A%A5-%EB%A7%8C%EB%93%A4-%EB%95%8C%EC%9D%98-%ED%95%B5%EC%8B%AC-orm-filter-567be01021c5
 
 #### (3) 최근 수정 파일에 대한 클라우딩기능
 
+서버에 연결해서 최근 3개정도 하면 될지 모르겠다. 진짜 하는 방법을 모르겠다.
+
 #### (4) 자동저장
+
+모르겠다. 5분? 10분?에 한번 자동저장 갈기도록 구현하는건 어떨까?
 
 #### (5) 입력 데이터 자동 분석 
 
@@ -75,8 +105,15 @@
 - 이미지 : 페이지에서 text를 읽어야 하나?
 -  폴더 : 폴더 내 각 파일 제목을 통해 구성?
 
+입력 확장자로 구분해야할까? 아니면 유저가 본인이 넣을것을 선택하도록 해야할까?
+
+
+
 #### (6) 함수 flow 추적
 
 기존 알고리즘 문제를 풀 때 VScode에서 디버깅을 하며 각 breakpoint에서 variable을 확인하였다. 이 기능을 구현할 순 없을까? VScode에선 뒤로는 못갔는데..
 
 https://latte-is-horse.tistory.com/193 사이트 참조
+
+
+
