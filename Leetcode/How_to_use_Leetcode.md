@@ -2,7 +2,7 @@
 
 1. 리트코드 접속 (https://leetcode.com/)
 
-![leet1](Leetcode/Leetimg/leet1.png)
+![leet1](/Leetimg/leet1.png)
 
 2. 왼쪽 위 Explore 누르고 Get Started 클릭
 
