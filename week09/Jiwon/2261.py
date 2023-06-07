@@ -40,10 +40,12 @@ def search (left, right):
     # y축 기준으로 탐색
     for i in range(length-1):
         for j in range(i+1, length):
-            if (dots[i][1] - dots[j][1]) ** 2 < mindistance:
+            if (xlist[i][1] - xlist[j][1]) ** 2 < mindistance:
                 # y축 기준으로 mindistance보다 작다면,
                 # 거리 계산해보기
-                mindistance = min(distance(dots[i], dots[j]), mindistance)
+                mindistance = min(distance(xlist[i], xlist[j]), mindistance)
+            else:
+                break
 
     return mindistance
 
