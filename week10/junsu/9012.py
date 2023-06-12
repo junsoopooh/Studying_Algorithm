@@ -15,10 +15,6 @@ for _ in range(t):
             else:
                 if stk[-1] == '(':
                     stk.pop()
-                else:
-                    ans = 'NO'
-                    stk.clear()
-                    break
     if stk :
         print('NO')
     else:
