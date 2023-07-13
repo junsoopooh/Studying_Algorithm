@@ -1,3 +1,31 @@
+# 경 <우리 지원이 일복 터졌당> 축
+
+킹갓제네럴엠페러충무공마제스티하이퍼울트라판타스틱익스트림지니어스화룡정점마스터더엠비션리마스터성골판타스틱엘라스틱레전더리충무공6인궁허니버터지져스내셔널앱솔루트리미티드먼치킨군계일학다크호스프레지던트바론스틸월드클래스엠페러올드스쿨카사노바수제작포켓몬고카와이올타임레전드슈퍼루키크리티컬업그레이드엘리트최고급클래시컬스테디셀러어드벤스드멘사금메달리스트전교회장유니버셜언프레딕터블석유재벌VIP로얄금수저풀차징만수무강하버드유니버시티천상계베테랑건물주17FW아나스타샤슈프림홍진호칼서렌얼짱카이저소제문벌귀족뉴블러드정점백년해로엄마카드일루미나틸누텔라비브라뉴슈퍼히어로좌중을압도하는아킬레스건학익진어필트렌드세터탈인간하이테크지니어스오버클럭우주대스타사일런트맥가이버세레나데주상전하뉴제네레이션원탑알파고데스티네이션빈티지약방의감초해피버스데이밸붕올라운더마에스트로에픽인비저블유니크바론스틸 
+
+🐰**지원이**가 스카우트되서 바로 취직을 해버리니 우리 백수 형제는 기쁘다!
+
+이쁘고 착하고 똑똑하고 예의바르고 센스있고 유쾌하고 올바르고 현명한 막내가 잘할거라 장담합니다!
+
+화이팅! 언제나 응원한다! 
+
+| ![img](https://media.tenor.com/OamK13PpsYIAAAAC/jonah-hill-excited.gif) | ![img](https://media.tenor.com/IaflL7yRbe0AAAAC/you-got-this-friends.gif) | ![img](https://media.tenor.com/B7UNHajhNRAAAAAC/clapping-ollie.gif) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+
+
+
+
+
+# 함께해줘서 고마웠어요.
+
+23.02.27 ~ 23.07.13
+
+| <img src="https://raw.githubusercontent.com/junsoopooh/Studying_Algorithm/0a1699a91df1658c6ed17b829ddad6bc85a49521/IDEA_Collection/webbing/13.jpg" alt="첫째" style="zoom:33%;" /> | <img src="https://raw.githubusercontent.com/junsoopooh/Studying_Algorithm/0a1699a91df1658c6ed17b829ddad6bc85a49521/IDEA_Collection/webbing/23.jpg" alt="둘째" style="zoom:33%;" /> | <img src="https://raw.githubusercontent.com/junsoopooh/Studying_Algorithm/0a1699a91df1658c6ed17b829ddad6bc85a49521/IDEA_Collection/webbing/33.jpg" alt="셋째" style="zoom:33%;" /> |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+
+![](https://raw.githubusercontent.com/junsoopooh/Studying_Algorithm/0a1699a91df1658c6ed17b829ddad6bc85a49521/IDEA_Collection/webbing/3.jpg)
+
+
+
 # Studying_Algorithm
 
 *2023년 4월 3일에 시작된 정글 6기 파이썬 알고리즘 스터디*
@@ -9,9 +37,7 @@
 
 ## 공지사항(2023.07.13)
 
-- 정글 6기 과정이 종료되었습니다. 함께 해서 너무 행복했습니다.
-- 개인적으로 진행할 프로젝트들은 별도의 Repository를 생성하는 쪽으로 하겠습니다.
-
+- 환경이 변해 혼란스럽겠지만 지금 기틀을 잡아야 이어나갈 수 있습니다! 
 
 <br><br>
 
