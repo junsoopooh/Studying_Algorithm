@@ -1,3 +1,17 @@
+# 준택쿤 생일 축하합니다.
+
+~~이제 이 Repo가 public이라 호들갑못떨어~~... 그래도 축하해! 꼭 취업하자!
+
+| ![img](https://media.tenor.com/xd85Q4tvYOMAAAAC/happy-birthday.gif) | ![img](https://media.tenor.com/KGBZgny6JJYAAAAC/birthday-trump.gif) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+
+| ![img](https://media.tenor.com/ZvQUk1qpWhsAAAAC/pepe-peppo.gif) | ![img](https://media.tenor.com/Gg71v93kjvYAAAAC/pepe-peppo.gif) | ![img](https://media.tenor.com/BBpjFlg9rKkAAAAC/pepe-clap.gif) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+
+
+
+
+
 # Studying_Algorithm
 
 *2023년 4월 3일에 시작된 정글 6기 파이썬 알고리즘 스터디*
