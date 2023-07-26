@@ -2,7 +2,7 @@
 import sys
 input = sys.stdin.readline
 n = int(input())
-queue = [] # queue의 위치에 따라서 값이 달라지는 이유는?
+queue = []
 for _ in range(n):
   data = input().split()
   # print(data)
