@@ -35,4 +35,4 @@ for dot in arr: # 원 하나씩 본다.
             stk.append(dot) # 새로운 목표 설정
 
 print(cnt)
-반례 : https://velog.io/@cherrym/baekjoon-10000-areas-made-of-circle
+# 반례 : https://velog.io/@cherrym/baekjoon-10000-areas-made-of-circle
