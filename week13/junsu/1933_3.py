@@ -32,7 +32,7 @@ for i in range(len(buildings)):
     else: # 끝점이라면?
         arr.add(point) # 끝점을 만났으니 이 좌표는 담아둔다.
         while heap: # heap이 비어 있지 않다면 반복한다.
-            if heap[0][1] not in arr: # 최대높이 빌딩의 끝점이 set에 없다면? => 아직 안 끝점을 만나지 않은 빌딩이라면?
+            if heap[0][1] not in arr: # 최대높이 빌딩의 끝점이 set에 없다면? => 아직 끝점을 만나지 않은 빌딩이라면?
                 break # 검사를 멈춘다.
             heappop(heap) # set에 있다면 이미 끝난 빌딩이므로 제거한다.
         if not heap: # 현재 스카이라인을 그릴 빌딩이 없다면?
