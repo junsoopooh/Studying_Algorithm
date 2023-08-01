@@ -43,16 +43,16 @@ while True:
   cnt += 1
   x += dx[direction]
   y += dy[direction]
-  
+
   if x < 0 or x >= n or y < 0 or y >= n:
     break
-  
+
   if graph[x][y] == 2:
     graph[x][y] = 1
     queue.append((x, y))
     if cnt in dirDict:
       turn(dirDict[cnt])
-    
+
   elif graph[x][y] == 0:
     graph[x][y] = 1
     queue.append((x, y))
@@ -60,7 +60,7 @@ while True:
     graph[tx][ty] = 0
     if cnt in dirDict:
       turn(dirDict[cnt])
-  
+
   else:
     break
 
@@ -68,7 +68,7 @@ print(cnt)
 
 
 ### 다른 풀이 ###
-from collection import deque
+from collections import deque
 
 n - int(input())
 board = [([0] * n) for _ in range(n)]
