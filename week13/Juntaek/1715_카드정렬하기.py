@@ -39,3 +39,13 @@ else:
     hq.heappush(card_deck, temp1+temp2)
 
   print(answer)
+
+  # 아래 코드로 백준 채점 시 런타임 에러 발생..
+  while card_deck:
+    temp1 = hq.heappop(card_deck)
+    temp2 = hq.heappop(card_deck)
+    answer += temp1 + temp2
+    if len(card_deck) == 0:
+      print(answer)
+      break
+    hq.heappush(card_deck, temp1 + temp2)

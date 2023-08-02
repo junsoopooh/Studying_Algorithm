@@ -34,7 +34,7 @@ for road in roads:
       hq.heappop(heap)
       if not heap:
         break
-    hq.heappush(heap, road)
+    hq.heappush(heap, road) # 이 코드를 넣으면 정답에 자기자신을 포함하게 되니까 정답보다 하나 더많은 값이 출력되는거 아닌가..?
   answer = max(answer, len(heap))
 
 print(answer)
