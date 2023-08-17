@@ -1,19 +1,23 @@
 # Studying_Algorithm
 
-*2023년 4월 3일에 시작된 정글 6기 파이썬 알고리즘 스터디*
+_2023년 4월 3일에 시작된 정글 6기 파이썬 알고리즘 스터디_
 
 ## 일정
 
-- 8월 16일 수요일 14,15 주차 스터디
+- 8월 23일 수요일 16주차 스터디(동탄)
 
-## 공지사항(2023.08.09)
+## 공지사항(2023.08.17)
 
-- 개인사정으로 16일에 2주치 진행 예정입니다.
-- 15주차는 DFS 관련 6문제와 이론입니다.
+- 16주차 양이 적습니다.
+- 그동안 밀렸거나 부족했던 것들을 보완하기 위해 정비하는 시간입니다.
+- 푼 문제들을 개인 블로그에 정리하여 올리고 있으니 참고하실분은 하셔도 됩니다.
+- [블로그 링크](https://junsoopooh.github.io/) -> 상단 Study 게시판 -> 오른쪽 algorithm 카테고리 선택 
+- 혹은 오른쪽 상단 돋보기 클릭 후 문제 번호를 통해 검색
 
 <br><br>
 
 ## 안내사항
+
 - 매주 회의가 끝나면 각 주차에 해당하는 폴더를 만들 예정입니다.<br>
 
 - 회의가 끝나면 지난 주차의 PR을 merge 합시다.<br>
@@ -36,11 +40,14 @@
 
 - 알고리즘 이론 공부는 수학 공부를 위한 것이 아닙니다. 갈 길이 먼 만큼 증명으로 시간을 빼앗기지 맙시다<br>
 
-    <br><br>
+  <br><br>
 
-***
+---
+
 <br><br>
+
 ## 규칙<br>
+
 <br>
 
 1. 공통문제는 반드시 풀어 온다.<br>
@@ -56,61 +63,73 @@
 11. 스터디 모임은 매 주 수요일 오후 6시로 하되, 합의 하에 조절한다.(23.07.27)<br>
 12. 회의에 참여하지 못하는 경우는 스스로 판단하여 구성원에게 통지한다.(23.07.27)<br><br>
 
-***
+---
+
 <br><br>
 
 ## Terminal(VS CODE)로 제출하는 법<br>
+
 <br>
 
 1. **이번주 내용 받아오기**<br>
-  - 새로운 폴더에 받기(사실 받을 내용은 의미없는 README.MD 뿐이지만 폴더 만들어놨으니까..)<br>
-    ```sh
-    $ git clone https://github.com/junsoopooh/Studying_Algorithm.git
-    $ cd Studying_Algorithm.git
-    ```
-    <br>
-  - 이미 clone 해놓은 폴더에 이번주 추가하기.
-    ```sh
-    $ cd Studying_Algorithm.git
-    $ git checkout main
-    $ git pull
-    ```
-    <br><br>
-2. **제출할 공간 만들기**<br>
+
+- 새로운 폴더에 받기(사실 받을 내용은 의미없는 README.MD 뿐이지만 폴더 만들어놨으니까..)<br>
   ```sh
-  $ cd ${이번주차폴더}
-  $ mkdir ${내영어이름}
-  $ cd ${내영어이름}
-  $ git checkout -b ${이번주차폴더}/${내영어이름}
-  $ git push -u origin ${이번주차폴더}/${내영어이름}
+  $ git clone https://github.com/junsoopooh/Studying_Algorithm.git
+  $ cd Studying_Algorithm.git
+  ```
+  <br>
+- 이미 clone 해놓은 폴더에 이번주 추가하기.
+  ```sh
+  $ cd Studying_Algorithm.git
+  $ git checkout main
+  $ git pull
   ```
   <br><br>
-3. **push로 제출하기**
-    내 local에서 올릴 파이썬파일과 Markdown등을 ${이번주차폴더}/${내영어이름}<br>
-  ```sh
-  $ git add .  #git add . 은 현재 디렉토리 내에 모든 변경사항을 포함시킵니다. 
-  #example.py라는 파일만 하고싶으면 git add example.py 라고 하면 됩니다. 
-  $ git commit -m '하고싶은 말' # 어떤문제였다던가, 나중에 질문할거라던가, 다했다던가, 어려웠다던가..., 하기싫다던가..
-  $ git push # 
-  ```
-<br><br>
-4. **[스터디 repository](https://github.com/junsoopooh/Studying_Algorithm) 이동**<br>
-  - branch 생성, push 확인하기<br>
-  - 'base:main <- compare:${이번주차폴더}/${내영어이름}' 방향 확인하기<br>
-  - Pull request 생성<br>
- <br><br>
+
+2. **제출할 공간 만들기**<br>
+
+```sh
+$ cd ${이번주차폴더}
+$ mkdir ${내영어이름}
+$ cd ${내영어이름}
+$ git checkout -b ${이번주차폴더}/${내영어이름}
+$ git push -u origin ${이번주차폴더}/${내영어이름}
+```
+
+<br><br> 3. **push로 제출하기**
+내 local에서 올릴 파이썬파일과 Markdown등을 ${이번주차폴더}/${내영어이름}<br>
+
+```sh
+$ git add .  #git add . 은 현재 디렉토리 내에 모든 변경사항을 포함시킵니다.
+#example.py라는 파일만 하고싶으면 git add example.py 라고 하면 됩니다.
+$ git commit -m '하고싶은 말' # 어떤문제였다던가, 나중에 질문할거라던가, 다했다던가, 어려웠다던가..., 하기싫다던가..
+$ git push #
+```
+
+<br><br> 4. **[스터디 repository](https://github.com/junsoopooh/Studying_Algorithm) 이동**<br>
+
+- branch 생성, push 확인하기<br>
+- 'base:main <- compare:${이번주차폴더}/${내영어이름}' 방향 확인하기<br>
+- Pull request 생성<br>
+  <br><br>
+
 5. **월요일 회의가 끝나고 자신의 PR을 merge 한다.**
+   <br><br>
+
+---
+
 <br><br>
-***
-<br><br>
+
 ## git 명령어
+
 <br><br>
 
 ```sh
 $ git clone <repository URL>  # 해당 URL의 repository clone하기
 $ git branch                  # 해당 repo의 브랜 목록 보기
 $ git branch -r               # remote 브랜치 보기
-$ git log --oneline           # 내가 위치해 있는 branch 확인 
+$ git log --oneline           # 내가 위치해 있는 branch 확인
 $ git branch -d <브랜치이름>   # 로컬 브랜치 삭제
 $ git branch <브랜치이름>      # 브랜치 생성
 $ git checkout <브랜치이름>    # 작업하는 브랜치 변경
@@ -118,6 +137,7 @@ $ git checkout -b <브랜치이름> # 위 두가지를 한번에, 즉 브랜치�
 $ git push origin <브랜치이름> # 생성한 local 브랜치를 remote 브랜치에 붙여넣기
 $ git branch --set-upstream-to origin/<브랜치 이름> # local 브랜치, remote 브랜치 연동하기
 ```
+
 <br><br>
 
 ```sh
@@ -126,6 +146,7 @@ $ git status                    # 추적상태 확인
 $ git commit -m "하고싶은말"		  # 하고싶은말을 메시지로 같이 남김
 $ git push 						          # 원격저장소에 업로드
 ```
+
 <br><br>
 
 ```sh
@@ -135,8 +156,10 @@ $ ls            # 디렉토리에 존재하는 파일 목록 출력
 $ ll            # ls에 -l 이라는 long option 추가로 상세히 출력
 $ mkdir         # 해당 이름의 하위 디렉토리 생성
 ```
+
 <br><br>
 mv 명령어 옵션
+
 ```sh
 $ mv [-option] [파일이름] [디렉토리]    #mv는 이동시키기
 $ mv [파일이름] [변경할 파일 이름]       #존재하는 디렉토리를 넣지 않으면 해당이름으로 파일이름을 변경함.
@@ -148,33 +171,38 @@ $ mv [파일이름] [변경할 파일 이름]       #존재하는 디렉토리�
 -u : 디렉토리에 있는 파일이 더 최신이면 이동하지 않음<br>
 <br><br>
 
-------
+---
 
 rm 명령어 옵션
+
 ```sh
 $ rm [-option] [파일이름] #rm은 삭제시키기
 ```
+
 옵션 종류<br>
 
 -i : 삭제할지 여부 물어봄<br>
 -r : 하위 디렉토리까지 모두 삭제<br>
 <br><br>
 
-------
+---
 
 git master(main)으로 내 local 덮어쓰기
+
 ```sh
 $ git fetch -all
 $ git reset --hard origin/master
 ```
 
 master가 아닌 다른 branch로 덮어쓰기
+
 ```sh
 $ git fetch -all
 $ git reset --hard origin/<브랜치 이름>
 ```
 
 현재 local을 다른 branch에 저장한 후, git pull로 덮어쓰기
+
 ```sh
 $ git checkout master
 $ git branch <브랜치 이름>
@@ -184,9 +212,7 @@ $ git reset --hard origin/master
 
 <br><br>
 
-------
-
-
+---
 
 git config 설정 관련(git config 관련 오류가 나올 시 유용)
 
@@ -205,12 +231,3 @@ $ git config --unset user.email
 $ git config --unset --global user.name
 $ git config --unset --global user.email
 ```
-
-
-
-
-
-
-
-
-
