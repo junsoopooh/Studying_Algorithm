@@ -1,68 +1,68 @@
 import sys
 
-def check(y, x):
-    global N, M
+def check(a, b):
+    global n, m
     cnt = 1
-    visited = [[False] * M for _ in range(N)]
-    visited[y][x] = True
+    visited = [[False] * m for _ in range(n)]
+    visited[a][b] = True
  
-    s = [(y, x)]
+    arr = [(a, b)]
  
-    while s:
-        y, x = s.pop()
+    while arr:
+        a, b = arr.pop()
  
         for dir in range(4):
-            ny = y + dy[dir]
-            nx = x + dx[dir]
+            na = a + da[dir]
+            nb = b + db[dir]
  
-            if not visited[ny][nx] and arr[ny][nx] != 0:
-                s.append((ny,nx))
-                visited[ny][nx] = True
+            if not visited[na][nb] and graph[na][nb] != 0:
+                arr.append((na,nb))
+                visited[na][nb] = True
                 cnt += 1
  
     return cnt
  
  
-N, M = map(int,sys.stdin.readline().split())
-arr = [list(map(int,sys.stdin.readline().split())) for _ in range(N)]
-melt = [[0] * M for _ in range(N)]
+n, m = map(int,sys.stdin.readline().split())
+graph = [list(map(int,sys.stdin.readline().split())) for _ in range(n)]
+melt = [[0] * m for _ in range(n)]
  
-dy = [-1, 0 , 1, 0]
-dx = [0, 1, 0, -1]
+da = [-1, 0 , 1, 0]
+db = [0, 1, 0, -1]
  
 ice = []
-for i in range(1, N-1):
-    for j in range(1, M-1):
-        if arr[i][j] != 0:
+for i in range(1, n-1):
+    for j in range(1, m-1):
+        if graph[i][j] != 0:
             ice.append((i, j))
  
 ans = 0
-cnt = 0
+years = 0
 while ice:
     if len(ice) != check(ice[0][0], ice[0][1]):
-        ans = cnt
+        ans = years
         break
-    cnt += 1
+    years += 1
     melt_co = []
     for i in range(len(ice) - 1, -1, -1):
-        y, x = ice[i]
+        a, b = ice[i]
  
         for dir in range(4):
-            ny = y + dy[dir]
-            nx = x + dx[dir]
+            na = a + da[dir]
+            nb = b + db[dir]
  
-            if arr[ny][nx] == 0:
-                melt[y][x] += 1
+            if graph[na][nb] == 0:
+                melt[a][b] += 1
  
-        if melt[y][x] > 0:
-            melt_co.append((y, x, i))
+        if melt[a][b] > 0:
+            melt_co.append((a, b, i))
  
-    for y, x, i in melt_co:
-        arr[y][x] -= melt[y][x]
-        if arr[y][x] <= 0:
-            arr[y][x] = 0
+    for a, b, i in melt_co:
+        graph[a][b] -= melt[a][b]
+        if graph[a][b] <= 0:
+            graph[a][b] = 0
             ice.pop(i)
  
-        melt[y][x] = 0
+        melt[a][b] = 0
  
 print(ans)

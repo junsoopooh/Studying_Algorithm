@@ -6,7 +6,6 @@ plus, minus, multiple, division = map(int, sys.stdin.readline().split())
 
 arr = []
 
-
 def dfs(tmp, cnt, a, b, c, d):
     if cnt == n:
         arr.append(tmp)
