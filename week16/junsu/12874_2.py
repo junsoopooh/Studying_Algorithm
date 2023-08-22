@@ -1,23 +1,19 @@
 import sys
 
-s = list(sys.stdin.readline().rstrip())
+s = sys.stdin.readline().rstrip()
 n = len(s)
-
-dp = [[0 for _ in range(n)] for _ in range(n)]
+stk = []
+arr = []
 cnt = 0
-open = 0
-tmp = s[0]
-i = -1
-
-
-def fun(x, open):
-    next_open_x = next_close_x = 0
-    i = x
-    while not next_close_x and next_open_x:
-        i += 1
-        if i == '(' and not next_open_x:
-            next_open_x = i
-        elif i == ')' and not next_close_x:
-            next_close_x = i
-
-    dp[x][open] = dp[next_open_x][open+1] + dp[next_close_x][open-1]
+for i in range(n):
+    if s[i] == '(':
+        stk.append('(')
+    else:
+        if stk:
+            stk.pop()
+            cnt += 1
+            
+    if i and not stk:
+        arr.append(cnt)
+        cnt = 0
+print(arr)
