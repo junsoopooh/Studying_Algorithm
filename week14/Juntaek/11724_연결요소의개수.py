@@ -3,7 +3,7 @@ import sys
 sys.setrecursionlimit(5000)
 input = sys.stdin.readline
 
-def dfs(start, depth):
+def dfs(start, depth): # 여기서 depth는 굳이 안 넣어도 되지 않을까?
   visited[start] = True
   for i in graph[start]:
     if not visited[i]:
