@@ -14,7 +14,7 @@ for i in range(M):
   bigger_lst[b].append(a)
   smaller_lst[a].append(b)
 
-def dfs(arr, start):
+def dfs(arr, start): # 이게 왜 DFS일까?
   cnt = 0
   visited[start] = True
   stack = deque()
