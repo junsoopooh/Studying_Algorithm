@@ -5,8 +5,8 @@ for _ in range(t):
     n = int(sys.stdin.readline())
     arr = list(map(int, sys.stdin.readline().split()))
     cnt = 0
-    for target in range(1,n):
-        for i in range(target-1,n):
+    for target in range(1, n):
+        for i in range(target-1, n):
             if arr[i] == target:
                 idx = i
                 break
