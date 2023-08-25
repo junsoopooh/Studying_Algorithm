@@ -12,39 +12,46 @@ da = [1, 0, -1, 0, 0, 0]
 db = [0, 1, 0, -1, 0, 0]
 dc = [0, 0, 0, 0, 1, -1]
 tomato = deque()
-cnt = 0
+arr = []
+
 for i in range(h):
     for j in range(n):
         for k in range(m):
-            if graph[i][j][k] != -1:
-                cnt += 1
             if graph[i][j][k] == 1:
-                tomato.append((i, j, k, 0))
-year = 0
+                tomato.append([i, j, k])
 
 
-def change(x):
-    global year
+def bfs():
     while tomato:
-        c, b, a, y = tomato.popleft()
-        print(b)
+        c, b, a = tomato.popleft()
+
         for i in range(6):
             nc = c + dc[i]
             nb = b + db[i]
-            na = a + db[i]
+            na = a + da[i]
             if na < 0 or na >= m or nb < 0 or nb >= n or nc < 0 or nc >= h:
                 continue
-            else:
-                if graph[nc][nb][na] == 0:
-                    graph[nc][nb][na] = 1
-                    tomato.append([nc, nb, na, y+1])
-                    year = max(year, y+1)
-                    x += 1
-    return x
+            if graph[nc][nb][na] == 0:
+                graph[nc][nb][na] = graph[c][b][a] + 1
+                tomato.append([nc, nb, na])
 
 
-num = change(0)
-if num == cnt:
-    print(year)
+def answer(x):
+    for i in range(h):
+        for j in range(n):
+            for k in range(m):
+                if graph[i][j][k] == 0:
+                    x = -1
+                    return x
+                if graph[i][j][k] > x:
+                    x = graph[i][j][k]
+    else:
+        return x
+
+
+bfs()
+ans = answer(1)
+if ans == -1:
+    print(ans)
 else:
-    print(-1)
+    print(ans-1)
