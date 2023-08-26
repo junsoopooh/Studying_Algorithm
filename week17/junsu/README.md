@@ -18,3 +18,5 @@
 | 2294                                                         | 1    | 오답 | BFS                                                   | 30분      | X         | 메모리초과 | 569B      | 최적화를 어찌할까                            |
 | 2294                                                         | 2    | 정답 | BFS                                                   | 23분 21초 | 164ms     | 34144KB    | 761B      | 중복을 없애는 SET, 값을 index로!             |
 | [영어 끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981) | 1    | 정답 | 반복문과 조건문, flag                                 |           |           |            |           | 은근 까다롭                                  |
+| [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909) | 1    | 정답 | 스택                                                  | 6분 57초  |           |            |           | 이제 이정도는 쉽다.                          |
+| [디스크 컨트롤러](https://school.programmers.co.kr/learn/courses/30/lessons/42627) | 1    | 정답 | 최소 힙                                               | 24분 11초 |           |            |           | 어렵다!                                      |
