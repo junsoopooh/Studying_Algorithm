@@ -1,3 +1,4 @@
+# 쿼드 압축 후 개수 세기
 def solution(arr):
     answer = [0, 0]
 
