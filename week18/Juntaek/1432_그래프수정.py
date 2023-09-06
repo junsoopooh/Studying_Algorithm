@@ -1,3 +1,4 @@
+# 풀이 코드 (https://velog.io/@whddn0221/%EB%B0%B1%EC%A4%80-1432-%EA%B7%B8%EB%9E%98%ED%94%84-%EC%88%98%EC%A0%95-%EC%9C%84%EC%83%81%EC%A0%95%EB%A0%AC-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%ED%81%90-mrltwcp5)
 import heapq
 
 n = int(input())

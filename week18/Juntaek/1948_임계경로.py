@@ -3,6 +3,7 @@
 # n : 도시의 개수
 # m : 도로의 개수
 
+# 풀이코드 (https://hiruby.tistory.com/439)
 import sys
 from collections import deque
 input = sys.stdin.readline
@@ -27,6 +28,7 @@ def topologysort():
   while q:
     cur = q.popleft()
     for i, t in graph[cur]:
+      indegree[i]-=1
       result[i] = max(result[i], result[cur] + t)
       if indegree[i] == 0:
         q.append(i)

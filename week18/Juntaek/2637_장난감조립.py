@@ -15,8 +15,9 @@ degree = [0] * (n+1)
 for _ in range(int(input())):
   a, b, c = map(int, input().split())
   connect[b].append((a, c))
-  degree[a] += 1
+  degree[a] += 1 # 필요한 제품이 아닌 만드는 제품을 +1 해준다!
 
+# degree가 0인 번호는 기본부품이라고 생각
 for i in range(1, n+1):
   if degree[i] == 0:
     q.append(i)
