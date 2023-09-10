@@ -7,8 +7,8 @@ lb = len(b)
 
 dp = [['' for _ in range(lb)] for _ in range(la)]
 
-for i in range(1,la):
-    for j in range(1,lb):
+for i in range(1, la):
+    for j in range(1, lb):
         if a[i] == b[j]:
             dp[i][j] = dp[i-1][j-1] + a[i]
         else:
@@ -19,6 +19,6 @@ for i in range(1,la):
 
 ans = dp[-1][-1]
 if len(ans):
-    print(len(ans),ans,sep='\n')
+    print(len(ans), ans, sep='\n')
 else:
     print(len(ans))
