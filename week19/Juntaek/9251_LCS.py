@@ -18,7 +18,7 @@ for i in range(1, row_num):
       # dp[i-1][j+1] = dp[i][j]
     # elif i == 1 and row[i] != column[j]:
     #   dp[i][j] = dp[i][j-1]
-    elif row[i] != column[j]:
+    else:
       if dp[i][j-1] > dp[i-1][j]:
         dp[i][j] = dp[i][j-1]
       else: dp[i][j] = dp[i-1][j]
