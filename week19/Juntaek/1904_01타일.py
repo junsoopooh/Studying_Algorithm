@@ -13,10 +13,11 @@ n = int(input())
 
 def DP(n):
   cache = [0] * (n+1) # 이렇게 하면 indexError..
+  # if n == 1: cache[n] = 1 이런식으로 코트를 짜야 indexError를 잘 해결할 수 있음
   cache[1] = 1
   cache[2] = 2
   for i in range(3, n+1):
-    cache[i] = cache[i-1] + cache[i-2]
+    cache[i] = cache[i-1] + cache[i-2] # 애초에 큰 값이 들어가면 메모리가 초과되니까 그걸 줄여줄려고 나머지 값을 캐시에 미리 넣어주는 거임
   return cache[n] % 15746 # 이렇게 하면 메모리 초과
 
 print(DP(n))
