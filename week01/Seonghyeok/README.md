@@ -62,7 +62,7 @@ result2 = statistics.mean(arr2)
 -> 인덱스로 report 리스트에있는 값들 접근하기 위해서
 
 ### zip을 사용할까 ?
--> 왜? 값을 묶어주기위해 ..? <br> -> 알게된 사실 : zip 객체는 이터레이션을 통해 소모되면서, 다시 사용하려면 처음부터 시작해야한다는 특징이 있음
+-> 왜? 값을 묶어주기위해 ..? <br> -> 알게된 사실 : zip 객체는 이터레이션을 통해 소모되면서, 초기화됨
 
 
 ```id_list = ["con", "ryan"]
@@ -109,3 +109,54 @@ print(result)
 - 파이썬의 자료형과 함수들의 이점을 정확히 파악하고 있지 못하는듯
 
 
+### 3.게임 맵 최단거리
+
+>    1. 상대 팀 진영에 최소 칸수로 가야한다 -> 최단거리 -> BFS
+>    2. 비슷한 문제를 본 것 같다.(이코테 bfs문제 )<br>
+>2-1. 숫자 1을 지나가는 좌표를 1씩 더해주면서 최종 목적지에 도착했을때 값 return
+>3. 목적지에 도달하지 못할경우도 생긴다.<br>
+>3-1. 목적지 (n,m)이라 했을때 둘러싸고있는 (n-1,m) (n,m-1) (n-2,m-2)를 처리 해줘야겠다.<br>
+>4. 동,서,남,북 방향 이동은 방향벡터를 사용하자
+>5. 행과 열을 나타내는 n과m은 각각 maps의 길이는 '행' maps의 아무 행렬의 길이는 '열'
+ 
+- 위처럼 생각하고 문제를 풀려고했으나 결국 기억이 안나 코드를 다시 봄 But.. 런타임 오류
+```
+from collections import deque
+
+maps = [[1,0,1,1,1],[1,0,1,0,1],[1,0,1,1,1],[1,1,1,0,1],[0,0,0,0,1]]
+
+
+def solution(maps):
+    dx = [-1, 1, 0, 0]
+    dy = [0, 0, -1, 1]
+    queue = deque()
+
+    # queue의 시작 0,0
+    queue.append((0, 0))
+    # 행
+    n = len(maps[0])
+    # 열
+    m = len(maps)
+    if maps[n-2][m-1] == 0 and maps[n-1][m-2] == 0 and maps[n-2][m-2] == 0:
+        return -1
+
+    while queue:
+        x, y = queue.popleft()
+        for i in range(4):
+            nx = x + dx[i]
+            ny = y + dy[i]
+            if nx < 0 or nx >= n or ny < 0 or ny >= m:
+                continue
+            if maps[nx][ny] == 0:
+                continue
+            if nx == 0 and ny == 0:
+                continue
+
+            if maps[nx][ny] == 1:
+                maps[nx][ny] = maps[x][y] + 1
+                queue.append((nx, ny))
+    return maps[n - 1][m - 1]
+
+```
+
+- 다른 정답 코드를 보니 상대 팀 진영에 도착하지 못할경우를 잘못생각하여 런타임 오류가 남
