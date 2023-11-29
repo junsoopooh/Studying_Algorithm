@@ -15,12 +15,13 @@ def solution(park, routes):
             if target == 'S':
                 target_index = [i, j]
                 break
-
+    print(target_index)
     # 행
     column = len(parkList[0])
     # 열
     row =  len(parkList)
     print('column : ',column ,'row : ', row)
+
     for val in routes:
         op = val[0]
         num = int(val[2])
@@ -38,7 +39,7 @@ def solution(park, routes):
             for i in range(1, num+1):
                 target_index[1] -= 1
                 if target_index[1] < 0:
-                    target_index[1] -= i
+                    target_index[1] += i
                     break
                 elif parkList[target_index[0]][target_index[1]] == 'X':
                     target_index[1] += i
@@ -61,8 +62,21 @@ def solution(park, routes):
                 elif parkList[target_index[0]][target_index[1]] == 'X':
                     target_index[0] += i
                     break
-
-
     return target_index
 
-print(solution(["OSO","OOO","OXO","OOO"],["E 2","S 3","W 1"]))
+# 위 확인
+# print(solution(["OSO", "XOX", "OXO"], ["N 1", "N 1"]))
+# 아래 확인
+#print(solution(["OSO", "XOO", "OOO"], ["S 2","S 1","E 1", "S 1"]))
+# 왼쪽 확인
+print(solution(["OXO", "OSO", "OXO"], ["W 2", "W 1", "S 1"]))
+# # 오른쪽 확인
+# print(solution(["OXO", "XSX", "OXO"], ["S 1", "E 1", "W 1", "N 1"]))
+
+#    0 1
+# 0 [0 0]
+# 1 [0 0]
+# -> 동쪽 끝 2이상 X
+# -> 남쪽 끝 2이상 X
+# -> 북쪽 끝 0미만 X
+# -> 서쪽 끝 0 미만 X
