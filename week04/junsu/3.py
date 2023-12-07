@@ -31,18 +31,19 @@ def solution(board):
   
 # 정답 풀이
 def solution(board):
-    answer = 1
+    answer = 0
     p = len(board)
     q = len(board[0])
     dp = [[0 for _ in range(q)] for _ in range(p)]
     dp[0] = board[0]
     for i in range(p):
         dp[i][0] = board[i][0]
-    
+
     for a in range(p):
         for b in range(q):
             if a-1>=0 and b-1>=0 and board[a][b]==1:
                 dp[a][b] = min(dp[a-1][b-1],dp[a-1][b],dp[a][b-1])+1
+                answer = max(answer,dp[a][b])
     for i in range(p):
         tmp = max(dp[i])
         answer = max(answer,tmp)
