@@ -10,7 +10,7 @@ def solution(today, terms, privacies):
     def check(y,m,d,t):
         ans = True
         m += t
-        while m>12:
+        while m>12: # while문 없어서 틀렸었음
             y += 1
             m -= 12
             
