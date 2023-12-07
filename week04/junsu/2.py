@@ -10,7 +10,7 @@ def solution(today, terms, privacies):
     def check(y,m,d,t):
         ans = True
         m += t
-        if m >12:
+        while m>12:
             y += 1
             m -= 12
             
