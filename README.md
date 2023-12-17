@@ -133,7 +133,9 @@ $ git branch <브랜치이름>      # 브랜치 생성
 $ git checkout <브랜치이름>    # 작업하는 브랜치 변경
 $ git checkout -b <브랜치이름> # 위 두가지를 한번에, 즉 브랜치를 만들고 그곳을 작업 브랜치로 하기
 $ git push origin <브랜치이름> # 생성한 local 브랜치를 remote 브랜치에 붙여넣기
-$ git branch --set-upstream-to origin/<브랜치 이름> # local 브랜치, remote 브랜치 연동하기
+$ git branch --set-upstream-to origin/<브랜치 이름>   # local 브랜치, remote 브랜치 연동하기
+$ git remote update                                  # remote 브랜치를 업데이트
+$ git checkout -t origin/<remote에 있는 브랜치이름>   # remote 브랜치를 로컬에 생성 후 해당 branch로 전환
 ```
 
 <br><br>
