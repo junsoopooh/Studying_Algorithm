@@ -7,6 +7,7 @@
 | 12/18(월) | Lv01 | 나머지가 1이되는 수 찾기 | O        |
 | 12/26(화) | Lv01 | 바탕화면 정리        | O        |
 | 12/26(화) | Lv02 | 숫자의 표현         | O        |
+| 12/26(화) | Lv02 | 숫자 블록          | X        |
 
 
 
@@ -26,6 +27,30 @@ X
 1. 주목할점은 연속된 숫자의 합 이라는 것
 2. 기본 틀은 1부터 num까지 더해가며 Target과 일치할때 answer ++
 3. 2번 내용을 바탕으로 연속된 숫자의 합이 target과 맞을때 boolean 값을 return 하는 함수 작성
+
+### 4. 숫자 블록
+1. dp의 냄새가 난다
+2. 냄새가 왜 난건지 모르겠다 
+3. 힌트 확인 후 다시 품
+```
+def solution(begin, end):
+    result = []
+    for target in range(begin,end+1):
+        tmp = []
+        for block in range(1,target):
+            if target % block == 0:
+                tmp.append(block)
+        if tmp:
+            result.append(max(tmp))
+        else:
+            result.append(0)
+            
+    return result
+
+```
+- 효율성 박살 + 테케 13번 틀린 코드 -> 합계: 66.7 / 100.0
+4. 아마 10,000,000까지의 숫자까지 for문을 돌려 일일히 확인하는 과정에서 문제가 생긴 것 같다.
+5. 
 
 
 
