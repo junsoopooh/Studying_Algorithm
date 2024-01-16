@@ -68,4 +68,3 @@ def solution(ingredient):
 1. 3중 반복문으로 행렬 곱셈 해결
 =======
 1. N = (N-1) + (N-2)
->>>>>>> origin/week09/Seonghyeok
