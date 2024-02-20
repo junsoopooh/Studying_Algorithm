@@ -104,18 +104,18 @@ $ git push -u origin ${이번주차폴더}/${내영어이름}
 ```sh
 $ git add .  #git add . 은 현재 디렉토리 내에 모든 변경사항을 포함시킵니다.
 #example.py라는 파일만 하고싶으면 git add example.py 라고 하면 됩니다.
-$ git commit -m '하고싶은 말' # 어떤문제였다던가, 나중에 질문할거라던가, 다했다던가, 어려웠다던가..., 하기싫다던가..
+$ git commit -m '하고싶은 말' # 날짜 어떤 문제 upload 의 형식 추천
 $ git push #
 ```
 
 <br><br> 4. **[스터디 repository](https://github.com/junsoopooh/Studying_Algorithm) 이동**<br>
 
 - branch 생성, push 확인하기<br>
-- 'base:main <- compare:${이번주차폴더}/${내영어이름}' 방향 확인하기<br>
+- `base:main <- compare:${이번주차폴더}/${내영어이름}` 방향 확인하기<br>
 - Pull request 생성<br>
   <br><br>
 
-5. **월요일 회의가 끝나고 자신의 PR을 merge 한다.**
+5. **수요일 회의가 끝나고 자신의 PR을 merge 한다.**
    <br><br>
 
 ---
