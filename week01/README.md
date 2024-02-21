@@ -1,9 +1,12 @@
 # 1주차 문제
-## Lv1
-- [평균 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/12944)<br>
-- [신고 결과 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334)<br>
-<br>
 
-## Lv2
-- [게임 맵 최단 거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)<br>
-- [124 나라의 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12899)<br>
+## Level 1
+
+- [정수 내림차순으로 배치하기](https://school.programmers.co.kr/learn/courses/30/lessons/12933)
+- [크레인 인형뽑기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/64061)
+
+## Level 2
+
+- [짝지어 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)
+
+- [프렌즈4블록](https://school.programmers.co.kr/learn/courses/30/lessons/17679)
