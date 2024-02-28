@@ -12,9 +12,9 @@ _2024년 2월 28일에 시작된 파이썬 알고리즘 스터디 3기_
 
 ## 일정
 
-- 2024년 2월 28일 1주차 회의(Zoom)
+- 2024년 3월 6일 2주차 회의(Zoom)
 
-## 공지사항(2024.02.20)
+## 공지사항(2024.02.28)
 
 - 궁금한 사항은 언제든 질문 바랍니다.
   <br><br>
@@ -147,6 +147,7 @@ $ git push origin <브랜치이름> # 생성한 local 브랜치를 remote 브랜
 $ git branch --set-upstream-to origin/<브랜치 이름>   # local 브랜치, remote 브랜치 연동하기
 $ git remote update                                  # remote 브랜치를 업데이트
 $ git checkout -t origin/<remote에 있는 브랜치이름>   # remote 브랜치를 로컬에 생성 후 해당 branch로 전환
+$ git fetch origin                                   # 로컬에서 보는 리모트 브랜치를 실제 원격 브랜치로 동기화
 ```
 
 <br><br>
