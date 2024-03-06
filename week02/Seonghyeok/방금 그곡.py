@@ -1,3 +1,9 @@
+'''
+채점 결과
+정확성: 85.7
+합계: 85.7 / 100.0
+'''
+
 def solution(m, musicinfos):
     answer = ''
 
