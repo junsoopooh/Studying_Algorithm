@@ -1,4 +1,4 @@
-#
+# 체육복 https://school.programmers.co.kr/learn/courses/30/lessons/42862
 # 93.3/100
 def solution(n, lost, reserve):
     lost.sort()
