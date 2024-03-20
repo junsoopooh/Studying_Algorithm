@@ -6,7 +6,7 @@ _2024년 2월 28일에 시작된 알고리즘 스터디 3기_
 
 - [배준수](https://github.com/junsoopooh)<br>
 - [서준택](https://github.com/Taek222) 무단 결석 1회<br>
-- [최성혁](https://github.com/Choi-Seong-Hyeok) 결석 1회<br>
+- [최성혁](https://github.com/Choi-Seong-Hyeok) 결석 2회<br>
 - [박영서](https://github.com/yeongseoPark)<br>
 - [김명균](https://github.com/KMKHM)<br><br>
 
