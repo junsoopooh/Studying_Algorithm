@@ -1,8 +1,14 @@
-#1 실전연습주간
+# 5주차 문제
 
-1. [대충 만든 자판](https://school.programmers.co.kr/learn/courses/30/lessons/160586)
-2. [압축](https://school.programmers.co.kr/learn/courses/30/lessons/17684)
+## Level 1
 
-테스트 문제
-1. [소수 경로](https://www.acmicpc.net/problem/1963)
-2. [랜선 자르기](https://www.acmicpc.net/problem/1654)
+- [대충 만든 자판](https://school.programmers.co.kr/learn/courses/30/lessons/160586)
+
+## Level 2
+
+- [압축](https://school.programmers.co.kr/learn/courses/30/lessons/17684)
+
+## Test
+
+- [소수 경로](https://www.acmicpc.net/problem/1963)
+- [랜선 자르기](https://www.acmicpc.net/problem/1654)
