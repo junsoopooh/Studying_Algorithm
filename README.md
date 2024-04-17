@@ -5,8 +5,8 @@ _2024년 2월 28일에 시작된 알고리즘 스터디 3기_
 ## 멤버
 
 - [배준수](https://github.com/junsoopooh)<br>
-- [서준택](https://github.com/Taek222) 무단 결석 1회 결석 1회<br>
-- [박영서](https://github.com/yeongseoPark) 지각 1회<br>
+- [서준택](https://github.com/Taek222) 무단 결석 1회 결석 1회 지각 1회<br>
+- [박영서](https://github.com/yeongseoPark) 지각 2회<br>
 - [김명균](https://github.com/KMKHM)<br>
 
 ### 임시탈퇴
@@ -14,9 +14,9 @@ _2024년 2월 28일에 시작된 알고리즘 스터디 3기_
 
 ## 일정
 
-- 2024년 4월 17일 8주차 회의(Zoom) 및 <u>실전 연습</u>
+- 2024년 4월 24일 9주차 회의(Zoom) 및 <u>실전 연습</u>
 
-## 공지사항(2024.04.12)
+## 공지사항(2024.04.17)
 
 - 최성혁은 2달간 이탈합니다.
   <br><br>
