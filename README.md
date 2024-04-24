@@ -6,7 +6,7 @@ _2024년 2월 28일에 시작된 알고리즘 스터디 3기_
 
 - [배준수](https://github.com/junsoopooh)<br>
 - [서준택](https://github.com/Taek222) 무단 결석 1회 결석 1회 지각 1회<br>
-- [박영서](https://github.com/yeongseoPark) 지각 2회<br>
+- [박영서](https://github.com/yeongseoPark) 결석 1회 지각 2회<br>
 - [김명균](https://github.com/KMKHM)<br>
 
 ### 임시탈퇴
@@ -14,11 +14,12 @@ _2024년 2월 28일에 시작된 알고리즘 스터디 3기_
 
 ## 일정
 
-- 2024년 4월 24일 9주차 회의(Zoom) 및 <u>실전 연습</u>
+- 2024년 4월 31일 10주차 회의(Zoom)
 
-## 공지사항(2024.04.17)
+## 공지사항(2024.04.24)
 
-- 최성혁은 2달간 이탈합니다.
+- 1번 문제를 Leetcode에서 출제합니다. 당분간 형식 적응을 위해 쉬운 문제로 출제하겠습니다.
+- Leetcode 사용 방식은 [링크](https://github.com/junsoopooh/Studying_Algorithm/blob/main/1%EA%B8%B0/-week10/Leetcode/How_to_use_Leetcode.md) 를 참고하세요.
   <br><br>
 
 ## 안내사항
