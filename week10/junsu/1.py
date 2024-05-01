@@ -1,3 +1,4 @@
+# [Score of a String](https://leetcode.com/problems/score-of-a-string/description/)
 class Solution:
     def scoreOfString(self, s: str) -> int:
         answer = 0

@@ -1,3 +1,5 @@
+#[소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12921)
+
 def solution(n):
     answer = 0
     for num in range(2,n+1):
