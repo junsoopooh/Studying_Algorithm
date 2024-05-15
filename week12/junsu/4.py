@@ -53,7 +53,7 @@ def solution(name):
                 break
     return answer
 
-# 3차 https://velog.io/@kjy2134/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%A1%B0%EC%9D%B4%EC%8A%A4%ED%8B%B1-%ED%8C%8C%EC%9D%B4%EC%8D%AC
+# 3차 7.4/100 https://velog.io/@kjy2134/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%A1%B0%EC%9D%B4%EC%8A%A4%ED%8B%B1-%ED%8C%8C%EC%9D%B4%EC%8D%AC
 def solution(name):
     n = len(name)
     name = list(name)
@@ -70,7 +70,7 @@ def solution(name):
 
     for i in range(len(name)//2 + 1):
         left = name[-i:] + name[:-i] 
-        right = name[i: :-1] + name[i+1:][::-1] # 기준점에서 빠꾸 + 좌측
+        right = name[i: :-1] + name[i+1:][::-1]
         for n in [left,right]:
             for x in range(len(left)-1,-1,-1):
                 if n[x] != 'A':
@@ -82,9 +82,8 @@ def solution(name):
     return answer+ cnt
 
 
-# 4차
+# 4차 100/100
 def solution(name):
-    l = len(name)
     # 최솟값 구하기 위해 최댓값으로 설정
     answer = 10**9
     
