@@ -10,5 +10,5 @@
 
 ## Test
 
-- 미정
-- 미정
+- [코코넛 그 두 번째 이야기](https://www.acmicpc.net/problem/6417)
+- [별 찍기 - 10](https://www.acmicpc.net/problem/2447)
