@@ -29,6 +29,8 @@ class Solution:
         return ans
     
 # 3차시도: 성공(62/62)
+from itertools import combinations
+
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         ans = 0
