@@ -9,5 +9,5 @@
 - [후보키](https://school.programmers.co.kr/learn/courses/30/lessons/42890)
 
 ## Test
-- [미정](https://leetcode.com)
-- [미정](https://www.acmicpc.net)
+- [Unique Paths](https://leetcode.com/problems/unique-paths/description/)
+- [가르침](https://www.acmicpc.net/problem/1062)
